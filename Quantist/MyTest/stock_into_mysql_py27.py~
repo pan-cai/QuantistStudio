@@ -1,0 +1,13 @@
+#! _*_ coding:utf-8 _*_
+#! _*_ coding:utf-8 _*_
+import tushare as ts
+import pymysql
+from sqlalchemy import create_engine
+
+#connect mysql
+engine = create_engine('mysql+pymysql://root:passwd@127.0.0.1/QuantistStudio?charset=utf8')
+print('successed connect')
+
+index = ts.get_index()
+#print(index)
+index.to_sql('index',engine,if_exists='append')

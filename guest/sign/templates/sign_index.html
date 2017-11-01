@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    {% load bootstrap3 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+    <title>Title</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">{{ event.name }}</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/event_manage/">meeting</a></li>
+                    <li><a href="/guest_manage/">guest</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header" style="padding-top:80px;">
+        <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form" method="post" action = "/sign_index_action/{{ event.id }}/" >
+                <div class="form-group">
+                    <input name="phone" type="text" placeholder="phone number" class="form-control"/>
+                </div>
+                <button type="submit" class="btn btn-success">sigin</button>
+                <font color="red">
+                    <br/>{{hint}}
+                    <br/>{{guest.realname}}
+                    <br/>{{guest.phone}}
+                </font>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

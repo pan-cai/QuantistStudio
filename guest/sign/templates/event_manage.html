@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+
+    {% load bootstrap3 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+    <title>Event Manage Page</title>
+</head>
+<body role="document">
+    <h1>Login Success</h1>
+    <div style="float:right;">
+        <a>{{ user }}welcome</a><hr/>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/event_manage">Guest Manage System</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">meeting</a></li>
+                    <li><a href="/guest_manage">guest</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">{{user}}</a></li>
+                    <li><a href="/logout">quit</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header" style="padding-top:60px;">
+        <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form" method="get" action="/search_name">
+                <div class="form-group">
+                    <input name="name" type="text" placeholder="name" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-success">search</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row" style="padding-top:80px;">
+        <div class="col-md-6">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>name</th>
+                        <th>status</th>
+                        <th>address</th>
+                        <th>time</th>
+                        <th>sign</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for event in events %}
+                    <tr>
+                        <td>{{ event.id }}</td>
+                        <td>{{ event.name }}</td>
+                        <td>{{ event.status }}</td>
+                        <td>{{ event.address }}</td>
+                        <td>{{ event.start_time }}</td>
+                        <td>/
+                            <a href="/sign_index/{{ event.id }}/" target="{{ event.id }}_blank">sign</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>

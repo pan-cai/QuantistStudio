@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+{% load static %}       #引入static目录下的静态文件要先加入此行
+
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>内存监控信息</title> 
+    <script src="{% static 'js/jquery-1.8.3.min.js' %}"></script> 
+    <script src="{% static 'js/highstock.js' %}"></script> 
+    <script src="{% static 'js/exporting.js' %}"></script> 
+    <script src="{% static 'js/highcharts-zh_CN.js' %}"></script> 
+</head> 
+<body> 
+    <div id="container" style="min-width:400px; height:400px"></div> 
+    <script> 
+            $(function () { 
+            $.getJSON('/data', function (data) { 
+                // Create the chart 
+                $('#container').highcharts('StockChart', { 
+                    chart:{ 
+                        events:{ 
+                            load:function(){ 
+                                var series = this.series[0] 
+                                setInterval(function(){ 
+                                $.getJSON('/data',function(res){ 
+                                    $.each(res,function(i,v) { 
+                                        series.addPoint(v) 
+                                    }) 
+                                }) 
+                                },3000) 
+                            } 
+                        } 
+                    }, 
+                    rangeSelector: { 
+                        selected: 1 
+                    }, 
+                    title: { 
+                        text: '内存使用率-单位M' 
+                    }, 
+                    series: [{ 
+                        name: '内存使用率', 
+                        data: data, 
+                        type: 'spline', 
+                        tooltip: { 
+                            valueDecimals: 2 
+                        } 
+                    }] 
+                }); 
+            }); 
+        }); 
+    </script> 
+</body> 
+</html> 

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <title>Title</title>
+     <script language="JavaScript">
+    $(document).ready(function() {
+       var chart = {
+          type: 'column'
+       };
+       var title = {
+          text: '网易云音乐 top20'
+       };
+       var subtitle = {
+          text: 'Source: <a href="music.163.com">music.163.com</a>'
+       };
+       var xAxis = {
+          type: 'category',
+          labels: {
+             rotation: -45,
+             style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+             }
+          }
+       };
+       var yAxis ={
+          min: 0,
+          title: {
+            text: '评论数 (millions)'
+          }
+       };
+       var tooltip = {
+          pointFormat: '评论数: <b>{point.y:.1f} 万</b>'
+       };
+       var credits = {
+          enabled: false
+       };
+       var series= [{
+                name: 'top music',
+                data: {{lists|safe}},
+                dataLabels: {
+                    enabled: true,
+                    rotation: -90,
+                    color: '#FFFFFF',
+                    align: 'right',
+                    format: '{point.y:.1f}',
+                    y: 10,
+                    style: {
+                        fontSize: '13px',
+                        fontFamily: 'Verdana, sans-serif'
+                    }
+                }
+       }];
+
+       var json = {};
+       json.chart = chart;
+       json.title = title;
+       json.subtitle = subtitle;
+       json.xAxis = xAxis;
+       json.yAxis = yAxis;
+       json.tooltip = tooltip;
+       json.credits = credits;
+       json.series = series;
+       $('#container').highcharts(json);
+    });
+    </script>
+</head>
+<body>
+    <div id='container' style='width:550px; height:400px; margin:0 auto'></div>
+
+    <h1>highcharts</h1>
+
+</body>
+</html>

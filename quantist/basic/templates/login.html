@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="{/static/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+
+
+
+    <title>Title</title>
+</head>
+<body>
+    <h1>login</h1>
+    <form action="#" method="post">
+        <input type="text" name="username" /><br/>
+        <input type="password" name="password" /><br/>
+        <input type="submit" value="submit" />
+    </form>
+
+    <hr/>
+    <table border="1">
+        <thead>
+            <th>username</th>
+            <th>password</th>
+        </thead>
+        <tbody>
+            {% for line in data %}
+            <tr>
+                <td>{{ line.uer }}</td>
+                <td>{{ line.pwd }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <hr/>
+
+
+    <script src="{/static/bootstrap/js/1.11.3/jquery.min.js}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{/static/bootstrap/js/bootstrap.min.js}"></script>
+
+    <!--try it-->
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

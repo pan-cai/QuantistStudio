@@ -7,12 +7,34 @@
 <body>
     <h1>Hello, test_sh</h1>
 
-    {% for sh in t_sh %}
+    <table border="1">
+        <thead>
+            <th>p_change</th>
+            <th>sh_volume</th>
+        </thead>
+        <tbody>
+            {% for c in sh_p_change %}
+                <tr>
+                    <td>{{ c }}</td>
+                </tr>
+            {% endfor %}
+            {% for v in sh_volume %}
+                <tr>
+                    <td>{{ v }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <hr/>
+
+    {% for o in t_sh.open %}
         <tr>
-            <td>{{ sh.open }}</td>
-            <td>{{ sh.price_change }}</td>
+            <td>{{ t_sh.open }}</td>
         </tr>
     {% endfor %}
+
+     <hr/>
 
 </body>
 </html>

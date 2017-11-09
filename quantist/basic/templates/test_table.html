@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Hello, test_sh</h1>
+
+    {% for sh in t_sh %}
+        <tr>
+            <td>{{ sh.open }}</td>
+            <td>{{ sh.price_change }}</td>
+        </tr>
+    {% endfor %}
+
+</body>
+</html>

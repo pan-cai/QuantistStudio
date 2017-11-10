@@ -23,18 +23,40 @@
                     <td>{{ v }}</td>
                 </tr>
             {% endfor %}
+            <hr/>
+            <table border="1">
+                {% for p,v in sh_p_change,sh_volume %}
+                    <tr>
+                       <td>{{ p }}</td>
+                        <td>{{ v }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+
         </tbody>
     </table>
 
     <hr/>
 
-    {% for o in t_sh.open %}
+    {{ t_sh }}
+
+    <hr/>
+
+    {% for t in t_sh %}
         <tr>
-            <td>{{ t_sh.open }}</td>
+            <td>{{ t.open }}</td>
+            <td>{{ t.low }}</td>
+            <td>{{ t.high }}</td>
         </tr>
     {% endfor %}
 
      <hr/>
+    <!--<script type="text/javascript">
+        var List = {{ List|safe }}
+        for (i in List) {
+            console.log(i);
+        }
+    </script>-->
 
 </body>
 </html>

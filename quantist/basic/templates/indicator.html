@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>indicator</title>
+
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <script src="{% static 'bootstrap/js/jquery-1.11.3.min.js' %}" ></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+    <form >
+        <input type="button" value="button">
+    </form>
+    <hr/>
+    <a href="javascript:void(0)" class="btn blue" id="send">sent</a>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#send").click(function(){
+
+                var url = "http://127.0.0.1:8000/stockdata/indicator/";
+                $.getJSON(url,function(ret){
+                    alert(ret);
+                });
+            })
+        })
+
+    </script>
+    <hr/>
+    {{ ret }}
+    <hr/>
+    <script type="text/javascript">
+       $(function(){
+            $("#sh").click(function(){
+                var url = "var url = "http://127.0.0.1:8000/stockdata/indicator/";
+                $.post(url,function(data){
+                    alert(data);
+                });
+            });
+       });
+
+    </script>
+    <input type="button" value="button" id="sh">
+</body>
+</html>

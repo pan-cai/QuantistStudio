@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="{/static/bootstrap/js/1.11.3/jquery.min.js}"></script>
+    <title>Title</title>
+</head>
+<body>
+    {{j2}}
+    <hr/>
+    <p>two numble</p>
+    <form action="/add/" method="get">
+        a:<input type="text" id="a" name="a"><br/>
+        b:<input type="text" id="b" name="b"><br/>
+        result:<span id="result"></span>
+        <button type="button" id="sum">submit</button>
+    </form>
+    <hr/>
+
+    <div id="dict">ajax-dict</div>
+    <p id="dict_result"></p>
+
+    <div id="list">ajax-list</div>
+    <p id="list_result"></p>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#sum").click(function({
+                var a = $("#a").val();
+                var b = $("#b").val();
+
+                $.get("/add/",{'a':a,'b':b},fuction(ret){
+                   $('#result').html(ret);
+                })
+            });
+
+            $('#list').click(function(){
+                $.getJSON('/ajax_list/',function(ret){
+                    for(var i =ret.length-1; i>=0; i--){
+                        $('#list_result').append(' '+ret[i])
+                    };
+                })
+            })
+
+            $('#dict').click(function(){
+                $.getJSON('/ajax_dict/',fuction(ret){
+                    $('#dict_result').append(ret['twz'] + '<br/>')
+                })
+            })
+        })
+    </script>
+
+    <hr/>
+
+
+</body>
+</html>

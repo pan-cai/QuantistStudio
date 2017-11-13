@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="787f3b75-5819-4bbe-accb-619184b92fb4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guest/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guest/sign/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/basic/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/basic/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/basic/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/basic/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/basic/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/basic/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/basic/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/quantist/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/quantist/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/quantist/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/quantist/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/.ipynb_checkpoints/write_into_mysql-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/views.py" />
+    <list default="true" id="787f3b75-5819-4bbe-accb-619184b92fb4" name="Default" comment="0.0.6">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial/snippets/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial/snippets/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/gender_submission.csv" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/gender_submission.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/pima-indians-diabetes.data" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/pima-indians-diabetes.data" />
@@ -33,7 +12,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/titanic/test.csv" afterPath="$PROJECT_DIR$/MyTest/titanic/test.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/titanic/train.csv" afterPath="$PROJECT_DIR$/MyTest/titanic/train.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quantist/stockdata/src/strategy_select3.ipynb" afterPath="$PROJECT_DIR$/quantist/stockdata/src/strategy_select3.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quantist/stockdata/src/write_into_mysql.ipynb" afterPath="$PROJECT_DIR$/quantist/stockdata/src/write_into_mysql.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,17 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guest/sign/views.py" />
-        <option value="$PROJECT_DIR$/Quantist/Quantist/settings.py" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/co.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/contral.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/face.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/models.py" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/examplejpg.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/basic.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/nav.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/base.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/src/save_data_to_file.py" />
         <option value="$PROJECT_DIR$/quantist/basic/templates/wavefrom.html" />
         <option value="$PROJECT_DIR$/quantist/basic/templates/image.html" />
         <option value="$PROJECT_DIR$/quantist/basic/src/imagehtml.py" />
@@ -112,16 +79,27 @@
         <option value="$PROJECT_DIR$/quantist/basic/templates/test_echart1.html" />
         <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_select2.ipynb" />
         <option value="$PROJECT_DIR$/quantist/stockdata/src/handle_with_pandas.ipynb" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_select3.ipynb" />
         <option value="$PROJECT_DIR$/quantist/stockdata/src/write_into_mysql.ipynb" />
+        <option value="$PROJECT_DIR$/restframework/restframework/urls.py" />
+        <option value="$PROJECT_DIR$/restframework/quickstart/models.py" />
+        <option value="$PROJECT_DIR$/restframework/quickstart/serializers.py" />
+        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_select3.ipynb" />
+        <option value="$PROJECT_DIR$/restframework/restframework/settings.py" />
+        <option value="$PROJECT_DIR$/tutorial/tutorial/settings.py" />
+        <option value="$PROJECT_DIR$/tutorial/snippets/models.py" />
+        <option value="$PROJECT_DIR$/tutorial/snippets/serialization.py" />
+        <option value="$PROJECT_DIR$/tutorial/snippets/serializers.py" />
+        <option value="$PROJECT_DIR$/tutorial/tutorial/urls.py" />
+        <option value="$PROJECT_DIR$/tutorial/snippets/views.py" />
+        <option value="$PROJECT_DIR$/tutorial/snippets/urls.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="324" />
-    <option name="y" value="169" />
-    <option name="width" value="634" />
-    <option name="height" value="449" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
+    <option name="y" value="70" />
+    <option name="width" value="1095" />
+    <option name="height" value="445" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -167,20 +145,19 @@
             <path>
               <item name="QuantistStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuantistStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="quantist" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuantistStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuantistStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="quantist" type="462c0819:PsiDirectoryNode" />
-              <item name="stockdata" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="snippets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuantistStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuantistStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="quantist" type="462c0819:PsiDirectoryNode" />
-              <item name="stockdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,19 +170,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial/snippets" />
+      <recent name="$PROJECT_DIR$/quantist/basic/static/bootstrap/js" />
+      <recent name="$PROJECT_DIR$/quantist/stockdata/src" />
+      <recent name="$PROJECT_DIR$/quantist/stockdata" />
+      <recent name="$PROJECT_DIR$/quantist/basic/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/quantist/basic/static/my_app" />
       <recent name="$PROJECT_DIR$/MyTest" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Quantist/MyTest/titanic" />
       <recent name="$PROJECT_DIR$/Quantist/MyTest/test_sklearn" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quantist/basic/static/bootstrap/js" />
-      <recent name="$PROJECT_DIR$/quantist/stockdata/src" />
-      <recent name="$PROJECT_DIR$/quantist/stockdata" />
-      <recent name="$PROJECT_DIR$/quantist/basic/templates" />
-      <recent name="$PROJECT_DIR$/learn_models/learn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,18 +393,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="31" width="1266" height="584" extended-state="6" />
+    <frame x="58" y="70" width="1095" height="445" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3647152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3641354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51573426" sideWeight="0.5029412" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39685315" sideWeight="0.4970588" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39685315" sideWeight="0.4970588" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -437,6 +414,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2027972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51573426" sideWeight="0.5029412" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39685315" sideWeight="0.4970588" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3647152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2027972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -446,7 +443,8 @@
     <MESSAGE value="0.2" />
     <MESSAGE value="0.3" />
     <MESSAGE value="0.0.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.5" />
+    <MESSAGE value="0.0.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -455,46 +453,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn_models/learn/templates/test.html" />
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn_models/learn/views.py" />
-    <entry file="file://$PROJECT_DIR$/guest/sign/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/highcharts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/image.html" />
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/examplejpg.html" />
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/contral.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="234" column="22" lean-forward="true" selection-start-line="234" selection-start-column="22" selection-end-line="234" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quantist/basic/templates/co.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2533">
@@ -738,17 +696,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_select3.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/write_into_mysql.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restframework/quickstart/models.py" />
+    <entry file="file://$PROJECT_DIR$/restframework/quickstart/serializers.py" />
+    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_select3.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restframework/restframework/settings.py" />
+    <entry file="file://$PROJECT_DIR$/restframework/restframework/urls.py" />
+    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/snippets/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/snippets/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/snippets/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="78" column="43" lean-forward="false" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/snippets/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
         </state>
       </provider>
     </entry>

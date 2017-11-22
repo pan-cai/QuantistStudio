@@ -2,14 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="787f3b75-5819-4bbe-accb-619184b92fb4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pyalgotrade/demo1.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Autograd: automatic differentiation.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Classifying Names with a Character-Level RNN.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Creating extensions using numpy and scipy.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Data Loading and Processing Tutorial.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Deep Learning for NLP with Pytorch.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Generating Names with a Character-Level RNN.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Generative Adversarial Networks (GAN) example in PyTorch..ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Linear_regression.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Making Dynamic Decisions and the Bi-LSTM CRF.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Reinforcement Learning (DQN) tutorial.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Sequence Models and Long-Short Term Memory Networks.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Transfer Learning tutorial.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Transfering a model from PyTorch to Caffe2 and Mobile using ONNX.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Translation with a Sequence to Sequence Network and Attention.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Word Embeddings Encoding Lexical Semantics.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/deep_.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/regression_example.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/time_.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_zipline/demo1.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_pytorch/Interduction to PyTorch.ipynb" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Interduction to PyTorch.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_pytorch/Learning PyTorch with Examples.ipynb" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Learning PyTorch with Examples.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/gender_submission.csv" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/gender_submission.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/pima-indians-diabetes.data" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/pima-indians-diabetes.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/test.csv" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/test.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/train.csv" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/train.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/titanic/test.csv" afterPath="$PROJECT_DIR$/MyTest/titanic/test.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/titanic/train.csv" afterPath="$PROJECT_DIR$/MyTest/titanic/train.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb" afterPath="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,12 +40,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strategy_analysis1.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb">
+    <leaf>
+      <file leaf-file-name="Linear_regression.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Linear_regression.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="25" />
+              <selected id="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deep_.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/deep_.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time_.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/time_.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="1" />
             </state>
           </provider>
         </entry>
@@ -49,30 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guest/sign/templates/test.html" />
-        <option value="$PROJECT_DIR$/learn_models/learn/templates/test.html" />
-        <option value="$PROJECT_DIR$/learn_models/learn_models/settings.py" />
-        <option value="$PROJECT_DIR$/learn_models/learn/views.py" />
-        <option value="$PROJECT_DIR$/learn_models/learn/urls.py" />
-        <option value="$PROJECT_DIR$/learn_models/learn_models/urls.py" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/index.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/highcharts.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/login.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/bootstrap.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/bootstraps.html" />
-        <option value="$PROJECT_DIR$/quantist/basic/views.py" />
-        <option value="$PROJECT_DIR$/quantist/basic/urls.py" />
-        <option value="$PROJECT_DIR$/quantist/basic/templates/bs2.html" />
-        <option value="$PROJECT_DIR$/myweb/blog/models.py" />
-        <option value="$PROJECT_DIR$/myweb/myweb/settings.py" />
-        <option value="$PROJECT_DIR$/quantist/quantist/settings.py" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/template/index.html" />
-        <option value="$PROJECT_DIR$/quantist/quantist/urls.py" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/src/get_strorage_stock.py" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/models.py" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/src/test_pymongodb.ipynb" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_select.ipynb" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/src/test_table.ipynb" />
         <option value="$PROJECT_DIR$/quantist/basic/templates/test_jquery.html" />
         <option value="$PROJECT_DIR$/quantist/basic/templates/test_table.html" />
         <option value="$PROJECT_DIR$/quantist/stockdata/urls.py" />
@@ -100,6 +115,30 @@
         <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis2.ipynb" />
         <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_select4.ipynb" />
         <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pyalgotrade/demo1.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_zipline/demo1.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Learning PyTorch with Examples.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Data Loading and Processing Tutorial.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Transfer Learning tutorial.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Deep Learning for NLP with Pytorch.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Word Embeddings Encoding Lexical Semantics.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Sequence Models and Long-Short Term Memory Networks.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Interduction to PyTorch.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Making Dynamic Decisions and the Bi-LSTM CRF.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Classifying Names with a Character-Level RNN.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Generating Names with a Character-Level RNN.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Translation with a Sequence to Sequence Network and Attention.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Reinforcement Learning (DQN) tutorial.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Creating extensions using numpy and scipy.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Transfering a model from PyTorch to Caffe2 and Mobile using ONNX.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Autograd: automatic differentiation.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Generative Adversarial Networks (GAN) example in PyTorch..ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Line_regression.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/demo1.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/regression_example.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/time_.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/Linear_regression.ipynb" />
+        <option value="$PROJECT_DIR$/MyTest/test_pytorch/deep_.ipynb" />
       </list>
     </option>
   </component>
@@ -141,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,27 +191,25 @@
             <path>
               <item name="QuantistStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuantistStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="quantist" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuantistStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuantistStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="quantist" type="462c0819:PsiDirectoryNode" />
-              <item name="stockdata" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="test_pytorch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuantistStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuantistStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="quantist" type="462c0819:PsiDirectoryNode" />
-              <item name="stockdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="test_zipline" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,19 +217,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MyTest/test_pytorch/data" />
+      <recent name="$PROJECT_DIR$/MyTest/test_pytorch" />
+      <recent name="$PROJECT_DIR$/quantist/basic/static/my_app" />
+      <recent name="$PROJECT_DIR$/MyTest" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MyTest/test_pytorch/data/name_data/names" />
       <recent name="$PROJECT_DIR$/tutorial/snippets" />
       <recent name="$PROJECT_DIR$/quantist/basic/static/bootstrap/js" />
       <recent name="$PROJECT_DIR$/quantist/stockdata/src" />
       <recent name="$PROJECT_DIR$/quantist/stockdata" />
-      <recent name="$PROJECT_DIR$/quantist/basic/templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quantist/basic/static/my_app" />
-      <recent name="$PROJECT_DIR$/MyTest" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Quantist/MyTest/titanic" />
-      <recent name="$PROJECT_DIR$/Quantist/MyTest/test_sklearn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -437,19 +475,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="31" width="1362" height="673" extended-state="6" />
+    <frame x="145" y="89" width="1362" height="673" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39558825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51573426" sideWeight="0.5029412" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39335665" sideWeight="0.4970588" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39335665" sideWeight="0.4970588" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -499,150 +537,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myweb/myweb/settings.py" />
-    <entry file="file://$PROJECT_DIR$/quantist/quantist/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="83" column="40" lean-forward="false" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/db.sqlite3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/template/index.html" />
-    <entry file="file://$PROJECT_DIR$/MyTest/test_other/test_write_into_mysql.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/get_strorage_stock.py" />
-    <entry file="file://$PROJECT_DIR$/MyTest/test_other/test_write_into_mysql.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyTest/test_other/test_write_into_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyTest/test_other/test_today_all.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyTest/test_other/test_mysql_pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/test_write_into_mysql.ipynb" />
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/test_pymongodb.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/test_table.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/quantist/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/test_jquery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="109" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/test_table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guest/sign/templates/event_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guest/sign/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/basic/templates/test_json_ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quantist/basic/templates/bootstraps.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -805,6 +699,176 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pyalgotrade/demo1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_zipline/demo1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Data Loading and Processing Tutorial.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Learning PyTorch with Examples.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Interduction to PyTorch.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Word Embeddings Encoding Lexical Semantics.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Deep Learning for NLP with Pytorch.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Sequence Models and Long-Short Term Memory Networks.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Making Dynamic Decisions and the Bi-LSTM CRF.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Transfer Learning tutorial.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/data/name_data/names/Italian.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Generating Names with a Character-Level RNN.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/data/name_data/eng-fra.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Reinforcement Learning (DQN) tutorial.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Creating extensions using numpy and scipy.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Transfering a model from PyTorch to Caffe2 and Mobile using ONNX.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Autograd: automatic differentiation.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Generative Adversarial Networks (GAN) example in PyTorch..ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Translation with a Sequence to Sequence Network and Attention.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Classifying Names with a Character-Level RNN.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/regression_example.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/time_.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/deep_.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Linear_regression.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="18" />
         </state>
       </provider>
     </entry>

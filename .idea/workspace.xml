@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="787f3b75-5819-4bbe-accb-619184b92fb4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/Predict-Stock-Price-master/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/mlp_stock-master/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/pytorch_chatbot-master/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/pytorch_chatbot-master/config/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/pytorch_chatbot-master/datasets/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/pytorch_chatbot-master/models/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/pytorch_chatbot-master/utils/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/time-sequence-prediction-master/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/time_series_forecasting_pytorch-master/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/uqer/Set_to_vote.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/uqer/basic_paramater.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/uqer/fundamentals.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/uqer/money_manager.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/uqer/moving_average.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/uqer/plot_with_seaborn.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/uqer/select_stock.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/uqer/sequentially.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/uqer/strategy_analysis-sh.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/quantist/stockdata/src/uqer/strategy_analysis-sh.ipynb" afterPath="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis-sh.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_pytorch/Linear_regression.ipynb" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/Linear_regression.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_pytorch/deep_.ipynb" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/deep_.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/gender_submission.csv" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/gender_submission.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/pima-indians-diabetes.data" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/pima-indians-diabetes.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/test.csv" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/test.csv" />
@@ -43,20 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strategy_analysis1.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="strategy_analysis-sh.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/uqer/strategy_analysis-sh.ipynb">
+        <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis-sh.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="20" />
+              <selected id="22" />
             </state>
           </provider>
         </entry>
@@ -81,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/restframework/restframework/settings.py" />
         <option value="$PROJECT_DIR$/tutorial/tutorial/settings.py" />
         <option value="$PROJECT_DIR$/tutorial/snippets/models.py" />
         <option value="$PROJECT_DIR$/tutorial/snippets/serialization.py" />
@@ -130,8 +98,9 @@
         <option value="$PROJECT_DIR$/MyTest/test_pytorch/project/Predict-Stock-Price-master/agent.py" />
         <option value="$PROJECT_DIR$/MyTest/test_pytorch/project/Predict-Stock-Price-master/network.py" />
         <option value="$PROJECT_DIR$/MyTest/test_pytorch/project/Predict-Stock-Price-master/get_data.py" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb" />
         <option value="$PROJECT_DIR$/quantist/stockdata/src/uqer/strategy_analysis-sh.ipynb" />
+        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb" />
+        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis-sh.ipynb" />
       </list>
     </option>
   </component>
@@ -184,6 +153,11 @@
             <path>
               <item name="QuantistStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuantistStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuantistStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuantistStudio" type="462c0819:PsiDirectoryNode" />
               <item name="quantist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -220,10 +194,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quantist/stockdata/src" />
       <recent name="$PROJECT_DIR$/MyTest/test_pytorch/data/name_data/names" />
       <recent name="$PROJECT_DIR$/tutorial/snippets" />
       <recent name="$PROJECT_DIR$/quantist/basic/static/bootstrap/js" />
-      <recent name="$PROJECT_DIR$/quantist/stockdata/src" />
       <recent name="$PROJECT_DIR$/quantist/stockdata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -475,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511359969444</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="0.0.9">
+      <created>1511883382923</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1511883382923</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -484,7 +465,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="31" width="1114" height="453" extended-state="6" />
+    <frame x="-1" y="31" width="1362" height="673" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5377698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -538,7 +519,8 @@
     <MESSAGE value="0.0.6" />
     <MESSAGE value="0.0.7" />
     <MESSAGE value="0.0.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.8" />
+    <MESSAGE value="0.0.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,13 +529,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/python_for_finance.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_select2.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -812,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-519">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,9 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,9 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-131">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,9 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,21 +850,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/uqer/strategy_analysis-sh.ipynb" />
     <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="1" />
+          <selected id="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/uqer/strategy_analysis-sh.ipynb">
+    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis-sh.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="20" />
+          <selected id="22" />
         </state>
       </provider>
     </entry>

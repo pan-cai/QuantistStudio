@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="787f3b75-5819-4bbe-accb-619184b92fb4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyTest/test_pytorch/project/rnn_for_overfit_waves.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis2.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/hmm1.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis_single_stock.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis_todayall.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/gender_submission.csv" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/gender_submission.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/pima-indians-diabetes.data" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/pima-indians-diabetes.data" />
@@ -11,6 +12,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/test_xgboost/train.csv" afterPath="$PROJECT_DIR$/MyTest/test_xgboost/train.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/titanic/test.csv" afterPath="$PROJECT_DIR$/MyTest/titanic/test.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest/titanic/train.csv" afterPath="$PROJECT_DIR$/MyTest/titanic/train.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb" afterPath="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,20 +23,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strategy_analysis-sh.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis-sh.ipynb">
+      <file leaf-file-name="strategy_analysis_todayall.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis_todayall.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="10" />
+              <selected id="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strategy_analysis2.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="strategy_analysis_single_stock.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis_single_stock.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strategy_analysis-sh.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis-sh.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strategy_analysis2.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis2.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="11" />
+              <selected id="9" />
             </state>
           </provider>
         </entry>
@@ -59,9 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tutorial/snippets/models.py" />
-        <option value="$PROJECT_DIR$/tutorial/snippets/serialization.py" />
-        <option value="$PROJECT_DIR$/tutorial/snippets/serializers.py" />
         <option value="$PROJECT_DIR$/tutorial/tutorial/urls.py" />
         <option value="$PROJECT_DIR$/tutorial/snippets/views.py" />
         <option value="$PROJECT_DIR$/tutorial/snippets/urls.py" />
@@ -105,11 +122,14 @@
         <option value="$PROJECT_DIR$/MyTest/test_pytorch/project/Predict-Stock-Price-master/network.py" />
         <option value="$PROJECT_DIR$/MyTest/test_pytorch/project/Predict-Stock-Price-master/get_data.py" />
         <option value="$PROJECT_DIR$/quantist/stockdata/src/uqer/strategy_analysis-sh.ipynb" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb" />
         <option value="$PROJECT_DIR$/MyTest/test_pytorch/Line_regression.ipynb" />
         <option value="$PROJECT_DIR$/MyTest/test_pytorch/project/rnn_for_overfit_waves.ipynb" />
-        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis-sh.ipynb" />
         <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis2.ipynb" />
+        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis-sh.ipynb" />
+        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb" />
+        <option value="$PROJECT_DIR$/quantist/stockdata/src/hmm1.ipynb" />
+        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis_single_stock.ipynb" />
+        <option value="$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis_todayall.ipynb" />
       </list>
     </option>
   </component>
@@ -193,8 +213,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511887576894</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="0.1.0">
+      <created>1512060231696</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1512060231696</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -481,19 +508,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="31" width="1050" height="585" extended-state="6" />
+    <frame x="-1" y="31" width="1362" height="673" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40744275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27794117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51573426" sideWeight="0.5029412" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6363636" sideWeight="0.4970588" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38636363" sideWeight="0.4970588" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -536,7 +563,8 @@
     <MESSAGE value="0.0.7" />
     <MESSAGE value="0.0.8" />
     <MESSAGE value="0.0.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.9" />
+    <MESSAGE value="0.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -545,27 +573,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyTest/test_pyalgotrade/demo1.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyTest/test_zipline/demo1.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Data Loading and Processing Tutorial.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Learning PyTorch with Examples.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -735,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/write_into_mysql.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/uqer/basic_paramater.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -849,13 +849,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/uqer/strategy_analysis-sh.ipynb" />
-    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyTest/test_pytorch/Line_regression.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -870,6 +863,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/write_into_mysql.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/hmm1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis-sh.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -880,7 +894,21 @@
     <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis2.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="11" />
+          <selected id="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis_single_stock.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantist/stockdata/src/strategy_analysis_todayall.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="20" />
         </state>
       </provider>
     </entry>
